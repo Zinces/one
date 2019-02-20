@@ -8404,6 +8404,14 @@ p {
   color: #ff6600;
 }
 
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+
 /* footer */
 
 footer {
