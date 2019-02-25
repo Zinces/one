@@ -12,13 +12,4 @@
         {!! $users->render() !!}
     </div>
 @stop
-<script>
-    function sumbit_sure(){
-        var gnl=confirm("确定要删除该用户?");
-        if (gnl==true){
-            return true;
-        }else{
-            return false;
-        }
-    }
-</script>
+

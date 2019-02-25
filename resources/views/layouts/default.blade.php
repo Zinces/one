@@ -13,6 +13,16 @@
             @include('layouts._footer')
         </div>
     </div>
-    <script src="/js/app.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script>
+        function delSure() {
+            var del = confirm('确定删除?')
+            if (del){
+                return true;
+            }  else {
+                return false;
+            }
+        }
+    </script>
 </body>
 </html>
